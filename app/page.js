@@ -1,6 +1,7 @@
 import AutoCarousel from "@/components/Carousel";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
+import HomePage from "@/components/Main";
 import React from "react";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
     <>
       <Header />
       <AutoCarousel images={images} />
-      <Contact />
+      <HomePage />
+      {/* <Contact /> */}
     </>
   );
 }
